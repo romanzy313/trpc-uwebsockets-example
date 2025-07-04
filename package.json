@@ -1,8 +1,21 @@
 {
   "name": "trpc-uwebsockets-example",
-  "packageManager": "yarn@4.9.2",
+  "scripts": {
+    "start-server": "ts-node src/server.ts",
+    "run-node": "ts-node src/client-node.ts"
+  },
   "devDependencies": {
+    "@types/event-source-polyfill": "^1.0.5",
+    "@types/node": "^24.0.10",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@trpc/client": "^11.3.1",
+    "@trpc/server": "^11.3.1",
+    "event-source-polyfill": "^1.0.31",
+    "trpc-uwebsockets": "^11.3.1",
+    "uWebSockets.js": "uNetworking/uWebSockets.js#v20.51.0",
+    "zod": "^3.25.73"
   }
 }
