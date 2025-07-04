@@ -52,7 +52,7 @@ const appRouter = t.router({
     .subscription(async function* ({ input, signal }) {
       console.log("started subscription");
       for (let i = input.from; i <= input.to; i++) {
-        await new Promise((resolve) => setTimeout(resolve, 20));
+        await new Promise((resolve) => setTimeout(resolve, 100));
         if (signal?.aborted) {
           return;
         }

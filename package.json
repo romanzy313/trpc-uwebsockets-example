@@ -2,7 +2,8 @@
   "name": "trpc-uwebsockets-example",
   "scripts": {
     "start-server": "ts-node src/server.ts",
-    "run-node": "ts-node src/client-node.ts"
+    "run-node": "ts-node src/client-node.ts",
+    "run-browser": "cd react && pnpm dev"
   },
   "devDependencies": {
     "@types/event-source-polyfill": "^1.0.5",
