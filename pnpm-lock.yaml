@@ -18,7 +18,7 @@ importers:
         specifier: ^1.0.31
         version: 1.0.31
       trpc-uwebsockets:
-        specifier: ^11.4.1
+        specifier: ^11.4.3
         version: 11.4.3(typescript@5.8.3)(uWebSockets.js@https://codeload.github.com/uNetworking/uWebSockets.js/tar.gz/6609a88ffa9a16ac5158046761356ce03250a0df)
       uWebSockets.js:
         specifier: uNetworking/uWebSockets.js#v20.51.0

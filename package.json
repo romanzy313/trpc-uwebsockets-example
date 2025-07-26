@@ -1,5 +1,6 @@
 {
   "name": "trpc-uwebsockets-example",
+  "type": "module",
   "scripts": {
     "start-server": "ts-node src/server.ts",
     "run-node": "ts-node src/client-node.ts",
