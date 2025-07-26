@@ -4,8 +4,7 @@ import z from "zod";
 
 import {
   applyRequestHandler,
-  applyWebsocketHandler,
-  CreateContextOptions,
+  type CreateContextOptions,
 } from "trpc-uwebsockets";
 
 export const port = 4000;
@@ -122,7 +121,7 @@ export async function startServer(port: number): Promise<Server> {
 }
 
 async function run() {
-  const { stop } = await startServer(port);
+  await startServer(port);
   console.log("server running on port", port);
 }
 
