@@ -1,6 +1,6 @@
 # trpc-uwebsockets-example
 
-Example of how to use [trpc-uwebsockets](https://github.com/romanzy313/trpc-uwebsockets).
+Example of how to use [trpc-uwebsockets](https://github.com/romanzy313/trpc-uwebsockets). The code closely follows the readme.
 
 - Run the server with `pnpm start-server`
 - Run node client with `pnpm run-node`

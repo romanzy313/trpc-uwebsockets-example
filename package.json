@@ -4,7 +4,7 @@
     "start-server": "ts-node src/server.ts",
     "run-node": "ts-node src/client-node.ts",
     "run-browser": "cd react && pnpm dev",
-    "build-server": "tsc",
+    "build": "tsc",
     "preview-server": "node dist/server.js",
     "preview-node": "node dist/client-node.js"
   },
