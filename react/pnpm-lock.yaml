@@ -9,7 +9,7 @@ importers:
   .:
     dependencies:
       '@trpc/client':
-        specifier: ^11.4.3
+        specifier: 11.4.3
         version: 11.4.3(@trpc/server@11.4.3(typescript@5.8.3))(typescript@5.8.3)
       react:
         specifier: ^19.1.0
