@@ -16,10 +16,10 @@
     "typescript": "^5.8.3"
   },
   "dependencies": {
-    "@trpc/client": "11.3.1",
-    "@trpc/server": "11.3.1",
+    "@trpc/client": "11.4.3",
+    "@trpc/server": "11.4.3",
     "event-source-polyfill": "^1.0.31",
-    "trpc-uwebsockets": "11.3.1",
+    "trpc-uwebsockets": "11.4.3",
     "uWebSockets.js": "uNetworking/uWebSockets.js#v20.51.0",
     "zod": "^3.25.73"
   }

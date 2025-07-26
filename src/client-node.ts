@@ -20,8 +20,6 @@ export function makeClient() {
         },
         true: httpSubscriptionLink({
           url: `http://localhost:${port}/trpc`,
-          // NOTE: polyfill is required when running outside the browser
-          // when not present, the subscriptions return nothing for some reason
           EventSource: EventSourcePolyfill,
         }),
         false: httpBatchStreamLink({

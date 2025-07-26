@@ -52,3 +52,4 @@ and get
 ```
 src/client-node.ts:14:17 - error TS2742: The inferred type of 'makeClient' cannot be named without a reference to '../node_modules/@trpc/server/dist/unstable-core-do-not-import.d-C6mFWtNG.cjs'. This is likely not portable. A type annotation is necessary.
 ```
+:)
