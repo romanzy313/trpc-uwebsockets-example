@@ -1,6 +1,6 @@
 # trpc-uwebsockets-example
 
-Quite messy example, but it works. Subscriptions are working as intended
+Example of how to use [trpc-uwebsockets](https://github.com/romanzy313/trpc-uwebsockets).
 
 - Run the server with `pnpm start-server`
 - Run node client with `pnpm run-node`

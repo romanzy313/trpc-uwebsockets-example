@@ -3,7 +3,10 @@
   "scripts": {
     "start-server": "ts-node src/server.ts",
     "run-node": "ts-node src/client-node.ts",
-    "run-browser": "cd react && pnpm dev"
+    "run-browser": "cd react && pnpm dev",
+    "build-server": "tsc",
+    "preview-server": "node dist/server.js",
+    "preview-node": "node dist/client-node.js"
   },
   "devDependencies": {
     "@types/event-source-polyfill": "^1.0.5",
