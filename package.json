@@ -13,13 +13,13 @@
     "@types/event-source-polyfill": "^1.0.5",
     "@types/node": "^24.0.10",
     "ts-node": "^10.9.2",
-    "typescript": "^5.8.3"
+    "typescript": "^5.9.2"
   },
   "dependencies": {
-    "@trpc/client": "11.4.3",
-    "@trpc/server": "11.4.3",
+    "@trpc/client": "11.4.4",
+    "@trpc/server": "11.4.4",
     "event-source-polyfill": "^1.0.31",
-    "trpc-uwebsockets": "11.4.3",
+    "trpc-uwebsockets": "11.4.4-canary.0",
     "uWebSockets.js": "uNetworking/uWebSockets.js#v20.51.0",
     "zod": "^3.25.73"
   }
