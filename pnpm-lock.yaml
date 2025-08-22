@@ -9,17 +9,17 @@ importers:
   .:
     dependencies:
       '@trpc/client':
-        specifier: 11.4.4
-        version: 11.4.4(@trpc/server@11.4.4(typescript@5.9.2))(typescript@5.9.2)
+        specifier: 11.5.0
+        version: 11.5.0(@trpc/server@11.5.0(typescript@5.9.2))(typescript@5.9.2)
       '@trpc/server':
-        specifier: 11.4.4
-        version: 11.4.4(typescript@5.9.2)
+        specifier: 11.5.0
+        version: 11.5.0(typescript@5.9.2)
       event-source-polyfill:
         specifier: ^1.0.31
         version: 1.0.31
       trpc-uwebsockets:
-        specifier: 11.4.4-canary.0
-        version: 11.4.4-canary.0(typescript@5.9.2)(uWebSockets.js@https://codeload.github.com/uNetworking/uWebSockets.js/tar.gz/6609a88ffa9a16ac5158046761356ce03250a0df)
+        specifier: 11.5.0-canary.0
+        version: 11.5.0-canary.0(typescript@5.9.2)(uWebSockets.js@https://codeload.github.com/uNetworking/uWebSockets.js/tar.gz/6609a88ffa9a16ac5158046761356ce03250a0df)
       uWebSockets.js:
         specifier: uNetworking/uWebSockets.js#v20.51.0
         version: https://codeload.github.com/uNetworking/uWebSockets.js/tar.gz/6609a88ffa9a16ac5158046761356ce03250a0df
@@ -56,14 +56,14 @@ packages:
   '@jridgewell/trace-mapping@0.3.9':
     resolution: {integrity: sha512-3Belt6tdc8bPgAtbcmdtNJlirVoTmEb5e2gC94PnkwEW9jI6CAHUeoG85tjWP5WquqfavoMtMwiG4P926ZKKuQ==}
 
-  '@trpc/client@11.4.4':
-    resolution: {integrity: sha512-86OZl+Y+Xlt9ITGlhCMImERcsWCOrVzpNuzg3XBlsDSmSs9NGsghKjeCpJQlE36XaG3aze+o9pRukiYYvBqxgQ==}
+  '@trpc/client@11.5.0':
+    resolution: {integrity: sha512-32oH+KOAdo73jJKjU9tyG+vCjID6A28NgXwUNr691O5HjpF5yyTX51Zzyee8YtGzU89Nw/drCHdfA4gD7BN2eg==}
     peerDependencies:
-      '@trpc/server': 11.4.4
+      '@trpc/server': 11.5.0
       typescript: '>=5.7.2'
 
-  '@trpc/server@11.4.4':
-    resolution: {integrity: sha512-VkJb2xnb4rCynuwlCvgPBh5aM+Dco6fBBIo6lWAdJJRYVwtyE5bxNZBgUvRRz/cFSEAy0vmzLxF7aABDJfK5Rg==}
+  '@trpc/server@11.5.0':
+    resolution: {integrity: sha512-0IBtkmUCeO2ycn4K45/cqsujnlCQrSvkCo7lFDpg3kGMIPiLyLRciID5IiS7prEjRjeITa+od2aaHTIwONApVw==}
     peerDependencies:
       typescript: '>=5.7.2'
 
@@ -110,9 +110,9 @@ packages:
   make-error@1.3.6:
     resolution: {integrity: sha512-s8UhlNe7vPKomQhC1qFelMokr/Sc3AgNbso3n74mVPA5LTZwkB9NlXf4XPamLxJE8h0gh73rM94xvwRT2CVInw==}
 
-  trpc-uwebsockets@11.4.4-canary.0:
-    resolution: {integrity: sha512-ehw9qJ2B0V3jM74ikW8R2WhF4JhPY7M1FiJ1FPWrLOtC+AQ7prUMyV1EDpbttwhcKuK3Qiq5WYjpGbKupKdZ5w==}
-    version: 11.4.4-canary.0
+  trpc-uwebsockets@11.5.0-canary.0:
+    resolution: {integrity: sha512-lhot8aBbDHSSaVJbme4+DrkkLbyZTQcWt6QwjuszgCjJVDPAusdJNKelauhALvHNb2Vh6B9OACiXTIQkVnx8sQ==}
+    version: 11.5.0-canary.0
     engines: {node: ^22.11.0}
     peerDependencies:
       uWebSockets.js: '*'
@@ -168,12 +168,12 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.4
 
-  '@trpc/client@11.4.4(@trpc/server@11.4.4(typescript@5.9.2))(typescript@5.9.2)':
+  '@trpc/client@11.5.0(@trpc/server@11.5.0(typescript@5.9.2))(typescript@5.9.2)':
     dependencies:
-      '@trpc/server': 11.4.4(typescript@5.9.2)
+      '@trpc/server': 11.5.0(typescript@5.9.2)
       typescript: 5.9.2
 
-  '@trpc/server@11.4.4(typescript@5.9.2)':
+  '@trpc/server@11.5.0(typescript@5.9.2)':
     dependencies:
       typescript: 5.9.2
 
@@ -207,9 +207,9 @@ snapshots:
 
   make-error@1.3.6: {}
 
-  trpc-uwebsockets@11.4.4-canary.0(typescript@5.9.2)(uWebSockets.js@https://codeload.github.com/uNetworking/uWebSockets.js/tar.gz/6609a88ffa9a16ac5158046761356ce03250a0df):
+  trpc-uwebsockets@11.5.0-canary.0(typescript@5.9.2)(uWebSockets.js@https://codeload.github.com/uNetworking/uWebSockets.js/tar.gz/6609a88ffa9a16ac5158046761356ce03250a0df):
     dependencies:
-      '@trpc/server': 11.4.4(typescript@5.9.2)
+      '@trpc/server': 11.5.0(typescript@5.9.2)
       uWebSockets.js: https://codeload.github.com/uNetworking/uWebSockets.js/tar.gz/6609a88ffa9a16ac5158046761356ce03250a0df
     transitivePeerDependencies:
       - typescript

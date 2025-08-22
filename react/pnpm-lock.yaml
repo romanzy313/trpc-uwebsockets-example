@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@trpc/client':
-        specifier: 11.4.4
-        version: 11.4.4(@trpc/server@11.4.4(typescript@5.9.2))(typescript@5.9.2)
+        specifier: 11.5.0
+        version: 11.5.0(@trpc/server@11.5.0(typescript@5.9.2))(typescript@5.9.2)
       react:
         specifier: ^19.1.0
         version: 19.1.0
@@ -22,8 +22,8 @@ importers:
         specifier: ^9.29.0
         version: 9.30.1
       '@trpc/server':
-        specifier: 11.4.4
-        version: 11.4.4(typescript@5.9.2)
+        specifier: 11.5.0
+        version: 11.5.0(typescript@5.9.2)
       '@types/react':
         specifier: ^19.1.8
         version: 19.1.8
@@ -484,14 +484,14 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@trpc/client@11.4.4':
-    resolution: {integrity: sha512-86OZl+Y+Xlt9ITGlhCMImERcsWCOrVzpNuzg3XBlsDSmSs9NGsghKjeCpJQlE36XaG3aze+o9pRukiYYvBqxgQ==}
+  '@trpc/client@11.5.0':
+    resolution: {integrity: sha512-32oH+KOAdo73jJKjU9tyG+vCjID6A28NgXwUNr691O5HjpF5yyTX51Zzyee8YtGzU89Nw/drCHdfA4gD7BN2eg==}
     peerDependencies:
-      '@trpc/server': 11.4.4
+      '@trpc/server': 11.5.0
       typescript: '>=5.7.2'
 
-  '@trpc/server@11.4.4':
-    resolution: {integrity: sha512-VkJb2xnb4rCynuwlCvgPBh5aM+Dco6fBBIo6lWAdJJRYVwtyE5bxNZBgUvRRz/cFSEAy0vmzLxF7aABDJfK5Rg==}
+  '@trpc/server@11.5.0':
+    resolution: {integrity: sha512-0IBtkmUCeO2ycn4K45/cqsujnlCQrSvkCo7lFDpg3kGMIPiLyLRciID5IiS7prEjRjeITa+od2aaHTIwONApVw==}
     peerDependencies:
       typescript: '>=5.7.2'
 
@@ -1463,12 +1463,12 @@ snapshots:
   '@rollup/rollup-win32-x64-msvc@4.44.2':
     optional: true
 
-  '@trpc/client@11.4.4(@trpc/server@11.4.4(typescript@5.9.2))(typescript@5.9.2)':
+  '@trpc/client@11.5.0(@trpc/server@11.5.0(typescript@5.9.2))(typescript@5.9.2)':
     dependencies:
-      '@trpc/server': 11.4.4(typescript@5.9.2)
+      '@trpc/server': 11.5.0(typescript@5.9.2)
       typescript: 5.9.2
 
-  '@trpc/server@11.4.4(typescript@5.9.2)':
+  '@trpc/server@11.5.0(typescript@5.9.2)':
     dependencies:
       typescript: 5.9.2
 
